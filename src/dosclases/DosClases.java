@@ -2,12 +2,9 @@ package dosclases;
 
 public class DosClases {
     public static void main(String[] args) {
-        // Llamar a otra Clase y otro metodo
-        NuevaClase nueva = new NuevaClase();
 
-        nueva.mensajitos();
+        Tiempo objeto = new Tiempo(4,5,6);
 
-        nueva.otromensajito();
-
+        System.out.printf("%s", objeto.dameHora());
     }
 }
