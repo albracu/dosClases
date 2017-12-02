@@ -2,12 +2,12 @@ package dosclases;
 
 public class DosClases {
     public static void main(String[] args) {
-        // Llamar a otra Clase y otro metodo
+
+        // Instanciar la Clase NuevaClase
         NuevaClase nueva = new NuevaClase();
 
-        nueva.mensajitos();
+        nueva.mensajeconparametros("Alfredo", "Bravo Cuero");
 
-        nueva.otromensajito();
 
     }
 }

@@ -8,4 +8,10 @@ public class NuevaClase {
     public void otromensajito(){
         System.out.println("Yo soy un Otro mensajito");
     }
+
+    public void mensajeconparametros(String nombre, String apellido){
+        System.out.println("El nombre digitado es: "+nombre +" "+apellido);
+    }
+
+
 }
