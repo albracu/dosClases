@@ -13,4 +13,15 @@ public class Club {
         System.out.printf("Constructor para %s  %s, hay %d\n ", nombre, apellido, contador);
     }
 
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public static int getMiembros() {
+        return contador;
+    }
 }
